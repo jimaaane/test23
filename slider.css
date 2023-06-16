@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+}
+
+#slider{
+    display: flex;
+    justify-content: center;
+}
+
+#imageContainer{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+}
+
+#imageSlider{
+    width: 1800px;
+    display: flex;
+    transition: transform 0.5s;
+}
+
+#interface{
+    width: 600px;
+    height: 300px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#leftArrow{
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+#rightArrow{
+    position: absolute;
+    right: 20px;
+    top: 120px;
+    transform: scaleX(-1);
+}
+
+#bottomBtn{
+    display: flex;
+    width: 130px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bottomBtn button{
+    padding: 3px 10px;
+    border: 2px;
+    background-color: rgba(255, 255,255, 0.3);
+}
+
+#bottomBtn button:hover{
+    padding: 3px 10px;
+    background-color: rgba(255, 255,255, 0.7);
+}
